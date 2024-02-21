@@ -1,7 +1,14 @@
 import React from "react";
+import AlbumnList from "./AlbumList";
+import GenrePicker from "./GenrePicker";
 
 function MainContent() {
-  return <main>{/* What components go here? */}</main>;
+  return (
+    <main>
+      <GenrePicker />
+      <AlbumnList />
+    </main>
+  );
 }
 
 export default MainContent;
